@@ -63,3 +63,54 @@ Example:
   "trace_id": "nm_001",
   "timestamp": "2026-05-17T10:32:11Z"
 }
+
+---
+Runtime Telemetry (ΔG)
+
+ΔG represents temporal stability variation across execution windows.
+
+It is intended for:
+
+drift visibility,
+runtime observability,
+trajectory analysis,
+and execution monitoring.
+
+ΔG is not a semantic truth signal.
+
+Conceptual Architecture
+LLM Execution
+      ↓
+Telemetry Extraction
+      ↓
+Normalization
+      ↓
+Governance Snapshot
+Positioning
+
+OBS mode:
+
+measures,
+observes,
+normalizes,
+reports.
+
+GOV mode:
+
+intervenes,
+orchestrates,
+enforces runtime policies.
+
+This repository focuses exclusively on OBS observability concepts.
+
+
+---
+
+Puis :
+
+# Commit changes
+
+Message :
+
+```text id="y93t1s"
+Add foundational OBS methodology README
