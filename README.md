@@ -62,7 +62,8 @@ Example:
   "regime": "STABLE",
   "trace_id": "nm_001",
   "timestamp": "2026-05-17T10:32:11Z"
-}...
+}
+```
 
 ---
 Runtime Telemetry (ΔG)
